@@ -1,7 +1,7 @@
-1. Project Title
-StyleSense: AI-Based Fashion Design System for New Clothing Styles
+#1. Project Title
+##StyleSense: AI-Based Fashion Design System for New Clothing Styles
 
-2. Introduction
+#2. Introduction
 StyleSense is an AI-driven system designed to generate innovative and unique clothing designs based on trending fashion styles. The system scrapes images of popular clothing items from online sources, processes them, and leverages advanced AI models to blend and generate fresh clothing styles.
 
 Key Features:
@@ -10,7 +10,7 @@ Scrapes images of trending clothing from e-commerce platforms.
 Allows users to upload custom clothing images and descriptions for design generation.
 Enables blending of selected clothing images to create new, unique fashion designs.
 A Gradio-powered web interface for seamless interaction with the system.
-3. Installation Instructions
+#3. Installation Instructions
 Prerequisites:
 A Google account (required to run the project in Google Colab).
 The setup is entirely managed within the Google Colab environment, so no local installation is required.
@@ -43,7 +43,7 @@ Copy code
 import gradio as gr
 app.launch(share=True)
 The link (e.g., https://xxxxxx.gradio.app) will open the Gradio interface in your browser, allowing you to interact with the app.
-4. Usage Guide
+#4. Usage Guide
 Running the Web Interface in Colab:
 After completing the setup and scraping steps, you will receive a link to the Gradio app (e.g., https://xxxxxx.gradio.app).
 
@@ -66,6 +66,5 @@ Example Flow:
 Select two images (either from the gallery or uploaded).
 Adjust sliders to control how the images should be blended.
 Generate a new design using the blended result and the description you provide.
-6. License Information
+#6. License Information
 This project is licensed under the MIT License. You are free to use, modify, and distribute the project as long as you include the original license.
-
