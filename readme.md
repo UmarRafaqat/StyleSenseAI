@@ -20,7 +20,7 @@
 
 ### Steps to Run the Project in Google Colab:
 1. **Open the Project in Google Colab:**
-   - Open the project in Google Colab by following this [Colab Link](#). (Note: Replace the placeholder with your actual link).
+   - Open the project in Google Colab by following this [Colab Link](#https://drive.google.com/file/d/12FrKHTJIaS3FBlfg7EZSvfauThZvS_1w/view?usp=drive_link). (Note: Replace the placeholder with your actual link).
    
 2. **Run Setup Cells in Colab:**
    - In the Colab notebook, run each of the setup cells step by step. The setup will include:
