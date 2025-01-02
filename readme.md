@@ -20,8 +20,8 @@
 
 ### Steps to Run the Project in Google Colab:
 1. **Open the Project in Google Colab:**
-   - Open the project in Google Colab by following this [https://drive.google.com/file/d/12FrKHTJIaS3FBlfg7EZSvfauThZvS_1w/view?usp=drive_link](#).
-   
+   - Open the project in Google Colab by following this [link](https://drive.google.com/file/d/12FrKHTJIaS3FBlfg7EZSvfauThZvS_1w/view?usp=drive_link).
+
 2. **Run Setup Cells in Colab:**
    - In the Colab notebook, run each of the setup cells step by step. The setup will include:
      - Installing the required libraries.
@@ -30,23 +30,13 @@
      - Launching the Gradio interface for easy interaction.
 
 3. **Dependencies will be automatically installed:**
-
    ```bash
    !pip install -r requirements.txt
    !pip install selenium webdriver-manager torch torchvision diffusers gradio beautifulsoup4 requests Pillow
 
-The Colab notebook will scrape images of trending clothing styles, which can be used for blending and design generation.
-Launch the Gradio App:
-
-After completing the setup, a final Colab cell will launch the Gradio app, providing a public link to the interface.
-python
-Copy code
-import gradio as gr
-app.launch(share=True)
-The link (e.g., https://xxxxxx.gradio.app) will open the Gradio interface in your browser, allowing you to interact with the app.
 # 4. Usage Guide
 Running the Web Interface in Colab:
-After completing the setup and scraping steps, you will receive a link to the Gradio app (e.g., https://xxxxxx.gradio.app).
+After completing the setup and scraping steps, you will receive a link to the Gradio app.
 
 Open the link in your browser to access the StyleSense fashion design interface.
 
